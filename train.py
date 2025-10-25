@@ -1,11 +1,11 @@
-from keras.models import Sequential
-from keras.layers import Conv2D,Flatten,MaxPool2D,AveragePooling2D,Dropout
-from keras.applications import MobileNetV2,ResNet50,EfficientNetB0, InceptionV3
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D,Flatten,MaxPool2D,AveragePooling2D,Dropout
+from tensorflow.keras.applications import MobileNetV2,ResNet50,EfficientNetB0, InceptionV3
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from keras.callbacks import EarlyStopping,ReduceLROnPlateau,ModelCheckpoint
-from keras.layers import Dense,BatchNormalization
+from tensorflow.keras.callbacks import EarlyStopping,ReduceLROnPlateau,ModelCheckpoint
+from tensorflow.keras.layers import Dense,BatchNormalization
 import matplotlib.pyplot as plt
-from keras.models import model_from_json
+from tensorflow.keras.models import model_from_json
 import torch
 
 
