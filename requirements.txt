@@ -1,6 +1,7 @@
 streamlit
 gradio
-tensorflow==2.15.0
+tensorflow
+keras
 numpy
 pillow
 opencv-python
